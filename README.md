@@ -49,9 +49,8 @@ After data acquisition, The data were processed and extracted features with meth
         • clip/
                 · All video clips which were played to participants.
         • Clip list.csv : Name of clips which were played for each participant. (15 clips/person)
-Manual
-=
-## Contents
+
+## System Manual
 1.Pre-installation
     
     • Set up python libraries: numpy, scipy, sklearn, mne, pandas, and matplotlib
