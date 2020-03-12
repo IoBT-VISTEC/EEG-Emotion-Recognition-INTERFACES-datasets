@@ -1,4 +1,4 @@
-# EEG-Emotion overview
+# Consumer Grade Brain Sensing for Emotion Recognition
 
 Steps:
     - Data Preprocessing -> Feature Extraction -> Classifier (Emotion recognition)
