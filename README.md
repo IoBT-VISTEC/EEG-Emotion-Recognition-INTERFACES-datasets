@@ -1,5 +1,6 @@
 # Consumer Grade Brain Sensing for Emotion Recognition
 
+## Overview
 Steps:
     - Data Preprocessing -> Feature Extraction -> Classifier (Emotion recognition)
     
