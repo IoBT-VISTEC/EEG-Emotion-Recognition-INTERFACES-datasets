@@ -49,13 +49,15 @@ After data acquisition, The data were processed and extracted features with meth
                 · All video clips which were played to participants.
         • Clip list.csv : Name of clips which were played for each participant. (15 clips/person)
 Manual
- =
+=
 ## Contents
-1.	Pre-installation
+1.Pre-installation
+    
     *• Set up python libraries: numpy, scipy, sklearn, mne, pandas, and matplotlib
     *• Create a directory named data at emotion-monitoring-system/data
     *• Copy data from data-lake to the above directory
-2. Pre-processing data
+    
+2.Pre-processing data
     • Go to ./src
     • Open and run all cells in EEGPreprocessing.ipynb
     • Answer the question ”Do you want to re-run all? (y/n):”
@@ -68,6 +70,7 @@ Manual
         – Bandpass filter to sub-frequency bands including
         – Reshape data to (number of samples per subject * number of subjects, number of channels, number of sub-frequency bands, number of sampling points) = (645, 8, 4, 14000)
     • The program automatically saves all data into data/EEG/preprocessed/EEG_ICA.npy
+    
 3.Feature Extraction
     • EEG
         – Go to ./src
