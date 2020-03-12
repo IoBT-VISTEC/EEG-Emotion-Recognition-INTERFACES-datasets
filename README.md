@@ -1,4 +1,4 @@
-# eeg-emotion
+# eeg-emotion overview
 
 Steps:
     - Data Preprocessing -> Feature Extraction -> Classifier (Emotion recognition)
