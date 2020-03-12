@@ -48,3 +48,41 @@ After data acquisition, The data were processed and extracted features with meth
         • clip/
                 · All video clips which were played to participants.
         • Clip list.csv : Name of clips which were played for each participant. (15 clips/person)
+Manual
+ =
+## Contents
+1.	Pre-installation
+    • Set up python libraries: numpy, scipy, sklearn, mne, pandas, and matplotlib
+    • Create a directory named data at emotion-monitoring-system/data
+    • Copy data from data-lake to the above directory
+2. Pre-processing data
+    • Go to ./src
+    • Open and run all cells in EEGPreprocessing.ipynb
+    • Answer the question ”Do you want to re-run all? (y/n):”
+        – If this is the first time of preprocessing the data, type y.
+        – Otherwise, type y if you want to re-run all again or n if you want to continue from the latest pre-processed signal.
+    • The program will perform preprocessing to each sample including
+        – Independent Component Analysis (ICA): In this step, it allows experts to specify which components should be removed from
+    the EEG signals.
+        – Common Average Reference (CAR)
+        – Bandpass filter to sub-frequency bands including
+        – Reshape data to (number of samples per subject * number of subjects, number of channels, number of sub-frequency bands, number of sampling points) = (645, 8, 4, 14000)
+    • The program automatically saves all data into data/EEG/preprocessed/EEG_ICA.npy
+3.Feature Extraction
+    • EEG
+        – Go to ./src
+        – Open and run all cells in EEGFeatureExtraction.ipynb
+        – The software automatically
+            * Calculates Power Spectral Density (PSD) of each sub frequency band.
+            * Saves into data/feature_extracted/EEG.npy
+    • Body signals
+        – Go to ./src
+        – Open and run all cells in E4_Extract_Feature.ipynb
+        – The software automatically
+            * Calculate all features from E4 (Empatica)
+            * Saves EDA.npy, TEMP.npy, and BVP.npy into data/E4/feature_extracted/
+
+
+
+### Our Paper
+When using (any part) of this dataset, please cite [our paper](https://ieeexplore.ieee.org/document/8762012)
