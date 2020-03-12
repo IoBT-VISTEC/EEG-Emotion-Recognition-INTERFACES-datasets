@@ -52,9 +52,9 @@ Manual
  =
 ## Contents
 1.	Pre-installation
-    • Set up python libraries: numpy, scipy, sklearn, mne, pandas, and matplotlib
-    • Create a directory named data at emotion-monitoring-system/data
-    • Copy data from data-lake to the above directory
+    *• Set up python libraries: numpy, scipy, sklearn, mne, pandas, and matplotlib
+    *• Create a directory named data at emotion-monitoring-system/data
+    *• Copy data from data-lake to the above directory
 2. Pre-processing data
     • Go to ./src
     • Open and run all cells in EEGPreprocessing.ipynb
