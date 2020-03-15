@@ -94,3 +94,19 @@ After data acquisition, The data were processed and extracted features with meth
 ### Our Paper
 
 When using (any part) of this dataset, please cite [our paper](https://ieeexplore.ieee.org/document/8762012)
+
+```
+@ARTICLE{8762012,  
+    author={P. {Lakhan} and N. {Banluesombatkul} and V. {Changniam} and R. {Dhithijaiyratn} and P. {Leelaarporn} and E. {Boonchieng} and S. {Hompoonsup} and T. {Wilaiprasitporn}}, 
+    journal={IEEE Sensors Journal}, 
+    title={Consumer Grade Brain Sensing for Emotion Recognition}, 
+    year={2019}, 
+    volume={19}, 
+    number={21}, 
+    pages={9896-9907}, 
+    keywords={brain;brain-computer interfaces;electroencephalography;emotion recognition;feature extraction;learning (artificial intelligence);medical signal processing;affective video clips;elicited signals;classification model;peripheral physiological signals;emotional EEG brainwaves;pre-selected clips;unsupervised machine learning;audio-visual stimuli;emotion classification;research grade EEG system;diverse emotion-eliciting stimuli;distinctive brain activities;emotional state recognition;emotion recognition;consumer grade brain sensing;Electroencephalography;Emotion recognition;Biomedical monitoring;Feature extraction;Sensors;Brain;Prediction algorithms;Consumer grade EEG;low-cost EEG;OpenBCI;emotion recognition;affective computing}, 
+    doi={10.1109/JSEN.2019.2928781}, 
+    ISSN={2379-9153}, 
+    month={Nov}, 
+}
+```
