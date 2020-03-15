@@ -62,7 +62,7 @@ After data acquisition, The data were processed and extracted features. Emotion 
 
     • Go to ./src
     • Open and run all cells in EEGPreprocessing.ipynb
-    • Answer the question ”Do you want to re-run all? (y/n):”
+    • Answer the question "Do you want to re-run all? (y/n):"
         – If this is the first time of preprocessing the data, type y.
         – Otherwise, type y if you want to re-run all again or n if you want to continue from the latest pre-processed signal.
     • The program will perform preprocessing to each sample including
