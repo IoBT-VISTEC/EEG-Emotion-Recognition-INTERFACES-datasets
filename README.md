@@ -9,7 +9,7 @@ Note:
 
 
 ## Database Description
-After data acquisition, The data were processed and extracted features with method at previous subsection. Emotion database is available in data lake. The structure and file description can be described as follows:
+After data acquisition, The data were processed and extracted features. Emotion database is available in data lake. The structure and file description can be described as follows:
 
 
     • Task 2-5 Emotion/
