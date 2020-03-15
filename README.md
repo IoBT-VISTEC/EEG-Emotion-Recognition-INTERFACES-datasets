@@ -20,14 +20,14 @@ After data acquisition, The data were processed and extracted features. Emotion 
             • preprocessed/
                 · EEG ICA.npy: EEG signal with ICA method in shape (N.subjects* N.clips, N.channels, N.freq bands, N.sampling points (56sec)) = (645, 8, 4, 14000)
                 · EEG no ICA.npy: EEG signals with out ICA method in shape (N.subjects* N.clips, N.channels, N.freq bands, N.sampling points (56sec)) = (645, 8, 4, 14000)
-            • raw/
-                · EEG.npy: raw EEG signals(µV) with sampling rate 250 Hz recorded from OpenBCI in shape (N.subjects, N.clips, N.channels, N.sampling points(56sec)) = (43, 15, 8, 14000)
+            • raw/**
+                · EEG.npy: raw EEG signals(µV) with sampling rate 250 Hz recorded from OpenBCI in shape (N.subjects, N.clips, N.channels, N.sampling points(56sec)) = (43, 15, 8, 14000) 
         • E4/
             • feature extracted/
                 · BVP.npy: Data from photoplethysmography after preprocessing as Table 4.1 in shape (N.subject, N.clip, N.of features)=(43, 15, 13)
                 · EDA.npy: Data from the electrodermal activity sensor after preprocessing as Table 4.1 in shape (N.subject, N. clip, N.features) = (43, 15, 21)
                 · TEMP.npy: Data from Data from temperature sensor after preprocessing as Table 4.1 in shape (N.subject, N.clip, N.features) = (43, 15, 4)
-            • raw/
+            • raw/ **
                 · ACC.npy: Data from 3-axis accelerometer sensor with sampling rate 32 Hz recorded from Empatica E4 in shape (N.subject, N.clip, N. x, y, and z axis, N.sampling points (56 sec)) = (43, 15, 3, 1792)
                 · BVP.npy: Data from photoplethysmography with sampling rate 64 Hz recorded from Empatica E4 in shape (N.subject, N. clip, N.sampling points (56 sec)) = (43, 15, 3584)
                 · EDA.npy: Data from the electrodermal activity sensor expressed as microsiemens (µS) with sampling rate 4 Hz recorded from Empatica E4 in shape (N.subject, N.clip, N.sampling points (56 sec)) = (43, 15, 224)
@@ -49,7 +49,7 @@ After data acquisition, The data were processed and extracted features. Emotion 
         • clip/
                 · All video clips which were played to participants.
         • Clip list.csv : Name of clips which were played for each participant. (15 clips/person)
-
+    **(Raw data are not provided)
 ## System Manual
 1.Pre-installation
     
