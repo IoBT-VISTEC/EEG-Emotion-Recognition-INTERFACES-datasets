@@ -5,7 +5,7 @@ Steps:
     - Data Preprocessing -> Feature Extraction -> Classifier (Emotion recognition)
     
 Note:
-    - Import data from data-lake (https://www.dropbox.com/sh/l0fxvbcvf15vnv1/AACMiqjFOMse6ODftzU7AKMxa?dl=0 or https://drive.google.com/drive/folders/1uEdYurqxZb1hZX8IGuI-WYJAyyb8JDxn?usp=sharing) to folder ./data/
+    - Import data from data-lake (dropbox)[https://www.dropbox.com/sh/l0fxvbcvf15vnv1/AACMiqjFOMse6ODftzU7AKMxa?dl=0] or (Google Drive)[https://drive.google.com/drive/folders/1uEdYurqxZb1hZX8IGuI-WYJAyyb8JDxn?usp=sharing] to folder ./data/
 
 
 ## Database Description
