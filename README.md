@@ -93,7 +93,7 @@ After data acquisition, The data were processed and extracted features. Emotion 
 
 ### Our Paper
 
-When using (any part) of this dataset, please cite our paper
+When using (any part) of this dataset, please cite [our paper](https://ieeexplore.ieee.org/document/8762012)
 
 ```
 @ARTICLE{8762012,  
