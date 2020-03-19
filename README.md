@@ -15,8 +15,8 @@ After data acquisition, The data were processed and extracted features. Emotion 
     • Task 2-5 Emotion/
         • EEG/
             • feature extracted/
-                · EEG ICA.npy: Power Spectral Density of each frequency band and channel as Table 4.1 with ICA method in shape (N.subjects* N.clips, N.channels, N.freq bands, 1) = (645,8, 4, 1)
-                · EEG no ICA.npy: Power Spectral Density of each frequency band and channel as Table 4.1 with out ICA method in shape (N.subjects* N.clips, N.channels, N.freq bands, 1) = (645, 8, 4, 1)
+                · EEG ICA.npy: Power Spectral Density of each frequency band and channel as Table 4.1 with ICA method in shape (N.subjects x N.clips, N.channels, N.freq bands, 1) = (645,8, 4, 1)
+                · EEG no ICA.npy: Power Spectral Density of each frequency band and channel as Table 4.1 with out ICA method in shape (N.subjects x N.clips, N.channels, N.freq bands, 1) = (645, 8, 4, 1)
             • preprocessed/
                 · EEG ICA.npy: EEG signal with ICA method in shape (N.subjects* N.clips, N.channels, N.freq bands, N.sampling points (56sec)) = (645, 8, 4, 14000)
                 · EEG no ICA.npy: EEG signals with out ICA method in shape (N.subjects* N.clips, N.channels, N.freq bands, N.sampling points (56sec)) = (645, 8, 4, 14000)
@@ -49,8 +49,9 @@ After data acquisition, The data were processed and extracted features. Emotion 
         • clip/
                 · All video clips which were played to participants.
         • Clip list.csv : Name of clips which were played for each participant. (15 clips/person)
-    **(Raw data are not provided)
-    **The channels in EEG signals include Fp1, Fp2, Fz, Cz, T3, T4, Pz and Oz, respectively.
+        
+    **(Raw data are not provided in this repository.)
+    **The EEG channels include Fp1, Fp2, Fz, Cz, T3, T4, Pz and Oz, respectively.
       The frequency bands include theta (3–7 [Hz]), alpha(8–13 [Hz]), beta(14–29 [Hz]) and gamma(30–47[Hz]).
       
       
