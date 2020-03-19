@@ -50,6 +50,10 @@ After data acquisition, The data were processed and extracted features. Emotion 
                 · All video clips which were played to participants.
         • Clip list.csv : Name of clips which were played for each participant. (15 clips/person)
     **(Raw data are not provided)
+    **The channels in EEG signals include Fp1, Fp2, Fz, Cz, T3, T4, Pz and Oz, respectively.
+      The frequency bands include theta (3–7 [Hz]), alpha(8–13 [Hz]), beta(14–29 [Hz]) and gamma(30–47[Hz]).
+      
+      
 ## System Manual
 1.Pre-installation
     
