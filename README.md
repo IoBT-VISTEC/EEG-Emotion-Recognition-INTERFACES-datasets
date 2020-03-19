@@ -18,13 +18,13 @@ After data acquisition, The data were processed and extracted features. Emotion 
                 · EEG ICA.npy: Power Spectral Density of each frequency band and channel as Table 4.1 with ICA method in shape (N.subjects x N.clips, N.channels, N.freq bands, 1) = (645,8, 4, 1)
                 · EEG no ICA.npy: Power Spectral Density of each frequency band and channel as Table 4.1 with out ICA method in shape (N.subjects x N.clips, N.channels, N.freq bands, 1) = (645, 8, 4, 1)
             • preprocessed/
-                · EEG ICA.npy: EEG signal with ICA method in shape (N.subjects* N.clips, N.channels, N.freq bands, N.sampling points (56sec)) = (645, 8, 4, 14000)
-                · EEG no ICA.npy: EEG signals with out ICA method in shape (N.subjects* N.clips, N.channels, N.freq bands, N.sampling points (56sec)) = (645, 8, 4, 14000)
+                · EEG ICA.npy: EEG signal with ICA method in shape (N.subjects x N.clips, N.channels, N.freq bands, N.sampling points (56sec)) = (645, 8, 4, 14000)
+                · EEG no ICA.npy: EEG signals with out ICA method in shape (N.subjects x N.clips, N.channels, N.freq bands, N.sampling points (56sec)) = (645, 8, 4, 14000)
             • raw/ [**]
                 · EEG.npy: raw EEG signals(µV) with sampling rate 250 Hz recorded from OpenBCI in shape (N.subjects, N.clips, N.channels, N.sampling points(56sec)) = (43, 15, 8, 14000) 
         • E4/
             • feature extracted/
-                · BVP.npy: Data from photoplethysmography after preprocessing as Table 4.1 in shape (N.subject, N.clip, N.of features)=(43, 15, 13)
+                · BVP.npy: Data from photoplethysmography after preprocessing as Table 4.1 in shape (N.subject, N.clip, N.of features) =(43, 15, 13)
                 · EDA.npy: Data from the electrodermal activity sensor after preprocessing as Table 4.1 in shape (N.subject, N. clip, N.features) = (43, 15, 21)
                 · TEMP.npy: Data from Data from temperature sensor after preprocessing as Table 4.1 in shape (N.subject, N.clip, N.features) = (43, 15, 4)
             • raw/ [**]
