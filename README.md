@@ -9,7 +9,7 @@ Note:
 
 
 ## Database Description
-After data acquisition, The data were processed and extracted features. Emotion database is available in data lake. The structure and file description can be described as follows:
+After data acquisition, The data were processed and extracted features. Emotion database is available in a data lake. The structure and file description can be described as follows:
 
 
     • Task 2-5 Emotion/
@@ -45,10 +45,10 @@ After data acquisition, The data were processed and extracted features. Emotion 
                 · rating.npy: Labeling of rating score (0:low or 1:high).
                 · valence.npy: Labeling of valence score (0:low or 1:high).
         • raw/
-                · Raw.npy: Self emotional score of all participants in shape (43, 15, 1) = ( N.subject, No. of clip, emotional score) in each emotion (happy, fear, excite, arousal, valence, rating).
+                · Raw.npy: Self emotional score of all participants in shape (43, 15, 1) = ( N.subject, No. of a clip, emotional score) in each emotion (happy, fear, excite, arousal, valence, rating).
         • clip/
                 · All video clips which were played to participants.
-        • Clip list.csv : Name of clips which were played for each participant. (15 clips/person)
+        • Clip list.csv : Name of clips that were played for each participant. (15 clips/person)
         
     [*] The EEG channels include Fp1, Fp2, Fz, Cz, T3, T4, Pz and Oz, respectively.
         The frequency bands include theta (3–7 [Hz]), alpha(8–13 [Hz]), beta(14–29 [Hz]) and gamma(30–47[Hz]). 
