@@ -1,4 +1,4 @@
-# Consumer Grade Brain Sensing for Emotion Recognition
+# Consumer Grade Brain Sensing for Emotion Recognition (INTERFACES datasets)
 
 ## Overview
 Steps:
